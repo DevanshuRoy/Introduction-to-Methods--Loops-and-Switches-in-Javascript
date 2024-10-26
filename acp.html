@@ -1,0 +1,28 @@
+<html>
+    <body>
+
+        <script>
+            //To perform printing a random set of numbers, current date and a rounded random number by using the in-built methods and Loops concept learnt in the class
+
+            document.write("Generating random numbers<br><br>");
+
+            for (let i=0;i<=10;i++) {
+                a=Math.random();
+                document.write(a+"<br>");
+            }
+
+            document.write("<br><br>Generating Current date<br><br>");
+
+            var d=new Date();
+            document.write("Current date and time = <br>" + d);
+
+
+            document.write("<br><br><br>Generating random rounded number<br><br>");
+
+            b=Math.random();
+            b=Math.round(b);
+            document.write(b+"<br>");
+        </script>
+
+    </body>
+</html>
